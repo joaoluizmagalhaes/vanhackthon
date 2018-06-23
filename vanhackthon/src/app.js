@@ -9,7 +9,7 @@ import { ApolloProvider } from "react-apollo";
 const client = new ApolloClient({
 	uri: "https://api.github.com/graphql",
 	request: operation => {
-		const token = "2b183cb60532ba214ffbf8727311509d3e4df70d";
+		const token = "/*put your access token here */";
 		if (token) {
 			operation.setContext({
 				headers: {
