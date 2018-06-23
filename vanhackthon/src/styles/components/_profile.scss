@@ -1,0 +1,22 @@
+.profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: relative;
+
+	.profile-avatar {
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+		margin: 30px auto;
+
+	}
+
+	.profile-text {
+		color: white;
+		text-transform: uppercase;
+
+	}
+}

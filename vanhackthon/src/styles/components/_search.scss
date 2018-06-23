@@ -1,0 +1,22 @@
+.search {
+	text-align: center;
+	padding: 20px 0 0;
+	width: 100%;
+	
+	.search-text {
+		color: $off-white;
+		font-size: $m-size;
+		margin: 0 0 20px;
+	}
+
+	.search-form {
+		width: 100%;
+
+		input {
+			position: relative;
+			width: calc(100% - 6px);
+			height: 40px;
+
+		}
+	}
+}
