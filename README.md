@@ -1,6 +1,6 @@
 This app search trough the Gitbu users to show the repositories that they have starred.
 
-The tecnologies used were:
+The technologies used were:
 
 - React, the main objective for this job positions;
 - Webpack, the best way to work with react;
